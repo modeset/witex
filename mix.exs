@@ -27,6 +27,10 @@ defmodule Witex.Mixfile do
   #
   # Type "mix help deps" for more examples and options
   defp deps do
-    []
+    [
+      {:httpotion, "~> 2.2.0"},
+      {:oauth2, "~> 0.5" },
+      {:poison, "~> 2.0"}
+    ]
   end
 end
