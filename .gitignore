@@ -3,4 +3,4 @@
 /deps
 erl_crash.dump
 *.ez
-/config/dev.exs
+.env
